@@ -1,0 +1,42 @@
+.indexHeader {
+    height: 400px;
+    background-image: url("../images/header_pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+.indexHeader h1 {
+    background-color: #151f286e;
+}
+
+
+.article {
+    height: 800px;
+    padding-left: 40px;
+    display: flex;
+}
+
+.articleLeft {
+    width: 65%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #d6dbff;
+    border-radius: 25px;
+}
+
+.articleRight {
+    width: 20%;
+    float: right;
+    padding: 10px;
+    margin: 20px 0px 0px 150px;
+    background-color: #d6dbff;
+    border-radius: 25px;
+}
+
+.articleLeft p, .articleRight p {
+    font-size: 20px;
+    color: black;
+}
+

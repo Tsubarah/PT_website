@@ -1,0 +1,158 @@
+.mainKost {
+    display: flex;
+}
+
+.kostContent {
+    width: 1000px;
+    margin-left: 310px;
+    background-color: #d6dbff;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 20px;
+}
+
+.kostContent p {
+    color: black;
+}
+
+.kostContent h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.kostMakros {
+    display: flex;
+    padding: 20px;
+    /* background-color: #ffffff59; */
+    /* border: 2px solid blue; */
+}
+/*
+.kost-makrosLeft {
+    width: 700px;
+     border: 2px solid green; 
+}
+
+.kost-makrosRight {
+    width: 400px;
+     border: 2px solid red; 
+} */
+
+#kostKolhydrater {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+
+#kostKolhydrater::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(/images/rice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+#kostProteiner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+
+#kostProteiner::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(/images/kost_protein.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    opacity: 0.5;
+}
+
+#kostFetter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    
+}
+
+#kostFetter::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(/images/nuts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.5;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.kostMakros p, h2 {
+    position: relative; 
+    font-weight: bold;
+}
+
+.kostImg {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url(/images/kost_pic.jpg);
+    background-size: cover;
+}
+
+.kostImg h1 {
+    float: right;
+    padding-right: 100px;
+}
+
+/*Table of Content*/
+.toc {
+    position: sticky;
+    top: 100px;
+    margin-left: 50px;
+    width: 170px;
+    height: 400px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    /*border: 2px solid white;*/
+    border-left: 2px solid white;
+    border-radius: 25px;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.toc ul li {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.toc a:link, .toc a:visited {
+    color: white;
+}

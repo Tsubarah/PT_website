@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <link rel="stylesheet" href="styles/global.css">
+        <link rel="stylesheet" href="styles/träning.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Träning</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="indexHeader">
+                <div id="navbar">
+                    <ul>
+                        <li><a href="index.html">Hem</a></li>
+                        <li><a href="kost.html">Kost</a></li>
+                        <li><a href="träning.html">Träning</a></li>
+                        <li><a href="setlogger.html">Logg</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="deltagare.html">Deltagare</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Program</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                <a href="#">Summer Shred 3</a>
+                                <a href="#">Autumn Shred 3</a>
+                                <a href="shred4.html">Summer Shred 4</a>
+                                <a href="#">Autumn Shred 4</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <h1>Träningsövningar</h1>
+                <div class="main">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, commodi aliquam expedita, ea voluptate animi, reiciendis dolorum nostrum culpa dicta architecto praesentium. Fuga error sit assumenda suscipit, consectetur at blanditiis!
+                        Dolorem neque aliquam blanditiis est voluptas error, odit laborum atque aperiam voluptatum et, eaque veritatis inventore tenetur facilis harum in minus reiciendis? Vitae iure minima, ducimus debitis eum similique cumque!
+                        Ab asperiores aliquam ad ea corrupti? Ab cum quidem, perspiciatis eos reprehenderit porro placeat vero ipsum sed. Beatae, sit eius harum itaque magnam deserunt ad magni, neque sunt quas culpa!
+                        Architecto, sunt laudantium fugit sapiente aut consectetur. Alias optio hic debitis perferendis, quae necessitatibus inventore eius cum earum ipsum. Aliquam tempore iste excepturi impedit error est commodi officia adipisci qui.</p>
+
+                    <div class="buttons js-buttons">
+                        <button onclick="changeTab('gym')" class="tabbtnLeft">Gymträning</button>
+                        <button onclick="changeTab('hemma')" class="tabbtnRight">Hemmaträning</button>
+                    </div>
+
+                    <div class="hemmaContent js-hemmaContent">
+                        <h1>Hemma Content</h1>
+                    </div>
+                    
+                    <div class="content js-content">
+
+                            <!-- Muskel-tabs -->
+                            <div id="navbarGym" class="gymContent js-gymContent">
+                                <ul>
+                                  <li><button onclick="changeGymTab('ben')" class="gymButtons" id="ben">Ben</button></li>
+                                  <li><button onclick="changeGymTab('bröst')" class="gymButtons" id="bröst">Bröst</button></li>
+                                  <li><button onclick="changeGymTab('axlar')" class="gymButtons" id="axlar">Axlar</button></li>
+                                  <li><button onclick="changeGymTab('rygg')" class="gymButtons" id="rygg">Rygg</button></li>
+                                  <li><button onclick="changeGymTab('armar')" class="gymButtons" id="armar">Armar</button></li>
+                                  <li><button onclick="changeGymTab('abs')" class="gymButtons" id="mage">Mage</button></li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Ben videos -->
+                            <div class="videos js-videos">
+                                    <div class="benVideos js-benVideos videoList js-videoList">
+                                        <div class="gymVideo js-gymVideo">
+                                        <p>Knäböj</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/bEv6CCg2BC8">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Frontböj</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/v-mQm_droHg">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo"> 
+                                        <p>Raka Mark</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/_oyxCn2iSjU">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Bulgarian Split</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/2C-uNgKwPLE">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Liggande Lårcurl</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/1Tq3QdYUuHs">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Benpress</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/IZxyjW7MPJQ">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Hip Thrust</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/xDmFkJxPzeM">
+                                        </iframe>
+                                      </div> 
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Stående Vader</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/YMmgqO8Jo-k">
+                                        </iframe>
+                                      </div>
+                                    </div>
+                              
+                                <!-- Bröst videos -->
+                                <div class="bröstVideos js-bröstVideos videoList js-videoList">
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Bänkpress</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/BYKScL2sgCs">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Lutande Bänkpress</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/SrqOu55lrYU">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Lutande Flyes</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/bDaIL_zKbGs">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Cable Flyes</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/Iwe6AmxVf7o">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Dips</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/yN6Q1UI_xkE">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>Pullover</p>
+                                        <iframe width="500" height="315"
+                                        src="https://www.youtube.com/embed/Ydpy886udzo">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>INSERT VIDEO</p>
+                                        <iframe width="500" height="315"
+                                        src="">
+                                        </iframe>
+                                      </div>
+                                      <div class="gymVideo js-gymVideo">
+                                        <p>INSERT VIDEO</p>
+                                        <iframe width="500" height="315"
+                                        src="">
+                                        </iframe>
+                                      </div>
+                                </div>
+                                <!-- Axlar Videos -->
+                                <div class="axelVideos js-axelVideos videoList js-videoList">
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Militärpress</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/2yjwXTZQDDI">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Sidolyft</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/3VcKaXpzqRo">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Facepulls</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/HSoHeSjvIdY">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Shrugs</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/xDt6qbKgLkY">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                </div>
+                                <!-- Rygg Videos-->
+                                <div class="ryggVideos js-ryggVideos videoList js-videoList">
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Marklyft</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/VL5Ab0T07e4">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Pull Ups</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/vw5Xmu5CIew">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Hantelrodd</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/djKXLt7kv7Q">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Sittande Rodd</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/GZbfZ033f74">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Golvrodd</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/uOAZGhNvPNA">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Stående Rodd</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/9efgcAjQe7E">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Smalt Latsdrag</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/ecRF8ERf2q4">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Brett Latsdrag</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/O94yEoGXtBY">
+                                      </iframe>
+                                    </div>
+                                </div>
+                                <!-- Armar Videos -->
+                                <div class="armVideos js-armVideos videoList js-videoList">
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Biceps Curls</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/sAq_ocpRh_I">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Pushdowns</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/2-LAMcpzODU">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                </div>
+                                <!-- Abs Videos -->
+                                <div class="absVideos js-absVideos videoList js-videoList">
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Ab Pulldowns</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/2fbujeH3F0E">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>Hängande Benlyft</p>
+                                      <iframe width="500" height="315"
+                                      src="https://www.youtube.com/embed/hdng3Nm1x_E">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                    <div class="gymVideo js-gymVideo">
+                                      <p>INSERT VIDEO</p>
+                                      <iframe width="500" height="315"
+                                      src="">
+                                      </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </header>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
