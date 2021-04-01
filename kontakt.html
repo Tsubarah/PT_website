@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="sv">
-    <head>
-        <link rel="stylesheet" href="global.css">
-        <link rel="stylesheet" href="kontakt.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Träningssida</title>
-    </head>
-    <body>
-        
-    </body>
+  <head>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/kontakt.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Träningssida</title>
+    <title>Träningssida</title>
+  </head>
+  <body>
+    <wrapper>
+      <!-- Navigation bar at the top -->
+      <div id="navbar">
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="kost.html">Kost</a></li>
+          <li><a href="träning.html">Träning</a></li>
+          <li><a href="setlogger.html">Logg</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="deltagare.html">Deltagare</a></li>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Program</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Summer Shred 3</a>
+              <a href="#">Autumn Shred 3</a>
+              <a href="shred4.html">Summer Shred 4</a>
+              <a href="#">Autumn Shred 4</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <h1>Kontakt och Frågor</h1>
+      <div class="article">
+        <div class="articleLeft">
+          <p>Vid Frågor Fyll i Kontaktformuläret</p>
+          <hr>
+          <form action="" method="GET">
+            <div class="contactForm">
+              <label for="fName">Namn:</label>
+              <input type="text" name="name" id="fName" required>
+            </div>
+            <div class="contactForm">
+              <label for="lName">Efternamn:</label>
+              <input type="text" name="name" id="lName" required>
+            </div>
+            <div class="contactForm">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="contactForm">
+              <label for="message">Meddelande:</label>
+              <textarea name="meddelande" id="message" rows="10" cols="50"></textarea>
+            </div>
+            <div>
+              <button type="submit">Skicka</button>
+            </div>
+          </form>
+        </div>
+        <div class="articleRight">
+          <p>blabla</p>
+        </div>
+      </div>
+    </wrapper>
+  </body>
 </html>
