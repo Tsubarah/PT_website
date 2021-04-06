@@ -16,6 +16,7 @@ header h1 {
     font-size: 60px;
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 4px white;
 }
 
 p {
