@@ -1,25 +1,51 @@
-/* body {
-  width: 100vw;
-} */
+body {
+  
+}
 
 
 h1 {
+  font-size: 40px;
   width: 800px;
   height: 50px;
   padding-top: 20px;
   margin: auto;
   text-align: center;
   text-shadow: 2px 2px 4px white;
-  
 }
 
+.contactHeader {
+  height: 300px;
+  background-image:url("../images/conctact_header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.contactHeader h1 {
+  width: 100%;
+  margin-top: 80px;
+  background-color: #151f286e;
+}
+
+.omMig {
+  width: 80%;
+  height: 15vw;
+  margin: auto;
+}
 
 .article {
-  width: 80vw;
-  height: 45vw;
+  width: 65vw;
+  height: 35vw;
   margin: auto;
+  margin-top: 20px;
   display: flex;
+  background-image: url("/images/article_background.jpg");
+  border-radius: 4px;
   /* border: 2px solid blue; */
+}
+
+.article p, .article h2 {
+  color: #151f28;
 }
 
 .articleLeft {
@@ -28,19 +54,23 @@ h1 {
   display: flex;
   flex-direction: column;
   padding-left: 100px;
-  border: 2px solid white;
+  /* border: 2px solid black; */
 }
 
 .articleRight {
   width: 40%;
   height: 35vw;
-  border: 2px solid white;
+  padding: 0px 80px 0px 20px;
+  /* border: 2px solid black; */
 }
 
 .articleRight h2 {
+  font-size: 30px;
   text-align: center;
-
+  text-shadow: 2px 2px 4px white;
 }
+
+
 
 form {
   width: 200px;
@@ -49,7 +79,7 @@ form {
 
 .contactForm {
   margin-bottom: 20px;
-  color: white;
+  color: #151f28;
 }
 
 #fName, #lName, #email {
@@ -59,4 +89,27 @@ form {
 button {
   width: 80px;
   height: 30px;
+}
+
+.faq {
+  width: 80%;
+  height: 200px;
+  margin: 20px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.faqBtn {
+  width: 220px;
+  height: 80px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-basis: 25%;
+  border-radius: 4px;
+}
+
+.faqBtn:hover {
+  background: linear-gradient(to bottom, white, #3ca0d0);
 }
