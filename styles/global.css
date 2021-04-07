@@ -17,6 +17,7 @@ header h1 {
     color: white;
     text-align: center;
     text-shadow: 2px 2px 4px white;
+    background-color: #151f286e;
 }
 
 p {
@@ -47,8 +48,8 @@ img {
     
 }
 
-#navbar ul li {
-
+#navbar ul li:hover {
+    transform: scale(1.2);
 }
 
 #navbar ul a {

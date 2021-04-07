@@ -7,13 +7,17 @@ p {
     margin: 20px;
 }
 
-
+header {
+    height: 400px;
+    background-image: url("/images/träningHeader.jpg");
+    background-position: center center;
+}
 
 .main {
     height: 600px;
     width: 1400px;
     margin: auto;
-    border-top: 2px solid black;
+    /* border-top: 2px solid black; */
     /* border-left: 2px solid black; */
     /* border-right: 2px solid black; */
 }
