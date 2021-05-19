@@ -1,13 +1,13 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-    function myFunction() {
+  function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
   // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
+  window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
             for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
@@ -18,12 +18,12 @@ toggle between hiding and showing the dropdown content */
     }
   }
 
-  //Code for tabs
+  // Code for tabs  
   const content = document.querySelector(".js-content");
   const gymContent = document.querySelector(".js-gymContent");
   const hemmaContent = document.querySelector(".js-hemmaContent");
   
-  //Tabs within js-content
+  // Tabs within js-content
   const benVideos = document.querySelector(".js-benVideos");
   const bröstVideos = document.querySelector(".js-bröstVideos");
   const axelVideos = document.querySelector(".js-axelVideos");
@@ -31,7 +31,7 @@ toggle between hiding and showing the dropdown content */
   const armVideos = document.querySelector(".js-armVideos");
   const absVideos = document.querySelector(".js-absVideos");
 
-  
+  //Tabs for faq
   hemmaContent.style.display = "none";
   content.style.display = "none";
 
@@ -60,7 +60,6 @@ toggle between hiding and showing the dropdown content */
 
   
 
-  // const gymVideos = document.querySelectorAll('.js-gymVideo');
   const videoLists = document.querySelectorAll('.js-videoList');
 
   function changeGymTab(tab) {
@@ -83,7 +82,7 @@ toggle between hiding and showing the dropdown content */
         videoLists.forEach(list => list.style.display = 'none');
         ryggVideos.style.display = 'flex';
       break;
-      case 'armar':
+    case 'armar':
         videoLists.forEach(list => list.style.display = 'none');
         armVideos.style.display = 'flex';
       break;
@@ -95,6 +94,20 @@ toggle between hiding and showing the dropdown content */
         console.log('Sorry');
     }
   }
+
+  
+const faqBtn = document.querySelectorAll('.js-faq')
+
+function openFaqTab(tab) {
+  if (tab === 'betalning') {
+    window.location = 'faq/betalning.html'
+  }
+}
+  
+
+
+
+
 
 
 

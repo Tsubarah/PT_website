@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="styles/kontakt.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Träningssida</title>
+    <title>Träningssida</title> 
+
+    <!-- kevz was here. -->
+
     <title>Träningssida</title>
   </head>
   <body>
@@ -66,13 +69,14 @@
             <p>Funderar du över något? Förmodlingen finns svaret redan i min FAQ nedan. Om du ej hittar svaret på din fråga där så kan du kontakta mig via formuläret.</p>
         </div>
       </div>
-      <div class="faq">
-        <button type="button" class="faqBtn">Betalning</button>
-        <button type="button" class="faqBtn">Friskvård</button>
-        <button type="button" class="faqBtn">Presentkort & Rabattkod</button>
-        <button type="button" class="faqBtn">Kost</button>
-        <button type="button" class="faqBtn">Hemmaträning</button>
-        <button type="button" class="faqBtn">Gymträning</button>
+      <div class="faq js-faq">
+        <a href="faq/betalning.html">Betalning</a>
+        <button onclick="openFaqTab('friskvård')" class="faqBtn friskvårdBtn js-friskvårdBtn">Friskvård</button>
+        <button onclick="openFaqTab('rabattkod')" class="faqBtn">Presentkort & Rabattkod</button>
+        <button onclick="openFaqTab('betalning')" class="faqBtn betalningBtn js-betalningBtn">Betalning</button>
+        <button onclick="openFaqTab('kost')" class="faqBtn">Kost</button>
+        <button onclick="openFaqTab('hemmaträning')" class="faqBtn">Hemmaträning</button>
+        <button onclick="openFaqTab('gymträning')" class="faqBtn">Gymträning</button>
       </div>
     </div>
   </body>
