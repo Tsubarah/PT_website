@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/kontakt.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Träningssida</title> 
+
+    <!-- kevz was here. -->
+
+    <title>Träningssida</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- Navigation bar at the top -->
+        <div id="navbar">
+          <ul>
+              <li><a href="index.html">Hem</a></li>
+              <li><a href="about">Om Mig</a></li>
+              <li><a href="kost.html">Kost</a></li>
+              <li><a href="träning.html">Träning</a></li>
+              <li><a href="setlogger.html">Logg</a></li>
+              <li><a href="deltagare.html">Deltagare</a></li>
+              <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">Program</button>
+                  <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Summer Shred 3</a>
+                      <a href="#">Autumn Shred 3</a>
+                      <a href="shred4.html">Summer Shred 4</a>
+                      <a href="#">Autumn Shred 4</a>
+                  </div>
+              </div>
+              <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <h1>Kontakt och Frågor</h1>
+      </header>
+      
+      <div class="article">
+        <div class="articleLeft">
+          <hr>
+          <hr>
+          <form action="" method="GET">
+            <div class="contactForm">
+              <label for="fName">Namn:</label>
+              <input type="text" name="name" id="fName" required>
+            </div>
+            <div class="contactForm">
+              <label for="lName">Efternamn:</label>
+              <input type="text" name="name" id="lName" required>
+            </div>
+            <div class="contactForm">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="contactForm">
+              <label for="message">Meddelande:</label>
+              <textarea name="meddelande" id="message" rows="10" cols="50"></textarea>
+            </div>
+            <div>
+              <button type="submit">Skicka</button>
+            </div>
+          </form>
+        </div>
+        <div class="articleRight">
+            <h2>Hitta Svaret på din Fråga!</h2>
+            <p>Funderar du över något? Förmodlingen finns svaret redan i min FAQ nedan. Om du ej hittar svaret på din fråga där så kan du kontakta mig via formuläret.</p>
+        </div>
+      </div>
+      <div class="faq js-faq">
+        <a href="faq/betalning.html">Betalning</a>
+        <button onclick="openFaqTab('friskvård')" class="faqBtn friskvårdBtn js-friskvårdBtn">Friskvård</button>
+        <button onclick="openFaqTab('rabattkod')" class="faqBtn">Presentkort & Rabattkod</button>
+        <button onclick="openFaqTab('betalning')" class="faqBtn betalningBtn js-betalningBtn">Betalning</button>
+        <button onclick="openFaqTab('kost')" class="faqBtn">Kost</button>
+        <button onclick="openFaqTab('hemmaträning')" class="faqBtn">Hemmaträning</button>
+        <button onclick="openFaqTab('gymträning')" class="faqBtn">Gymträning</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

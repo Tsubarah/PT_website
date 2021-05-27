@@ -16,11 +16,20 @@ header h1 {
     font-size: 60px;
     color: white;
     text-align: center;
+<<<<<<< HEAD
+=======
+    text-shadow: 2px 2px 4px white;
+    background-color: #151f286e;
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 }
 
 p {
     color: white;
     font-size: 20px;
+<<<<<<< HEAD
+=======
+    /* letter-spacing: 2px; */
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 }
 
 section {
@@ -45,8 +54,13 @@ img {
     
 }
 
+<<<<<<< HEAD
 #navbar ul li {
 
+=======
+#navbar ul li:hover {
+    transform: scale(1.2);
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 }
 
 #navbar ul a {

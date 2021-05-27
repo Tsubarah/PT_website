@@ -7,13 +7,25 @@ p {
     margin: 20px;
 }
 
+<<<<<<< HEAD
 
+=======
+header {
+    height: 400px;
+    background-image: url("/images/träningHeader.jpg");
+    background-position: center center;
+}
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 
 .main {
     height: 600px;
     width: 1400px;
     margin: auto;
+<<<<<<< HEAD
     border-top: 2px solid black;
+=======
+    /* border-top: 2px solid black; */
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
     /* border-left: 2px solid black; */
     /* border-right: 2px solid black; */
 }
@@ -62,18 +74,40 @@ p {
     height: 50px;
     margin: 5px;
     font-weight: bold;
+<<<<<<< HEAD
     background-image: linear-gradient(to bottom, white, #3ca0d0);
 }
 
+=======
+    transition: .2s;
+    background-image: linear-gradient(to bottom, white, #3ca0d0);
+}
+
+.gymButtons:hover {
+    transform: scale(1.1);
+}
+
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 .tabbtnLeft, .tabbtnRight {
     width: 700px;
     height: 150px;
     font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
+<<<<<<< HEAD
     background-image: linear-gradient(to top, white, #3ca0d0);
 }
 
+=======
+    transition: .2s;
+    background-image: linear-gradient(to top, white, #3ca0d0);
+}
+
+.tabbtnLeft:hover, .tabbtnRight:hover {
+    transform: scale(1.1);
+}
+
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 
 .benVideos, .bröstVideos, .axelVideos, .ryggVideos, .armVideos, .absVideos {
     display: flex;

@@ -1,10 +1,36 @@
+<<<<<<< HEAD
 .mainKost {
     display: flex;
+=======
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.mainKost {
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 }
 
 .kostContent {
     width: 1000px;
+<<<<<<< HEAD
     margin-left: 310px;
+=======
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
     background-color: #d6dbff;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -138,10 +164,16 @@
     padding: 10px;
     color: white;
     font-size: 20px;
+<<<<<<< HEAD
     /*border: 2px solid white;*/
     border-left: 2px solid white;
     border-radius: 25px;
 }
+=======
+    border-left: 2px solid white;
+    border-radius: 25px;
+} 
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
 
 .toc ul {
     list-style-type: none;
@@ -155,4 +187,8 @@
 
 .toc a:link, .toc a:visited {
     color: white;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> e234ce618bcab04a05a2a05bccfb23a5c89c7496
